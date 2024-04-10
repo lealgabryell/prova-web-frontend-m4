@@ -1,0 +1,122 @@
+/* importa a edicao basica da pagina a partir do global.css */
+@import url('./global.css');
+@import url('./signin.css ');
+
+.navbar{
+  gap: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 10rem;
+  
+}
+.navbar ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2.5rem; 
+}
+.navbar li{
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+}
+.navbar li a:hover{
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+}
+
+.navbar li a{
+  color: rgb(0, 0, 0);
+}
+
+.navbar .img-container img{
+  width: 50px;
+}
+.navbar .img-container{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+.navbar .img-container h1{
+  display: flex;
+  align-items: center;
+}
+.btn-box {
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+}
+.btn-1 {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(28, 250, 157);
+  color: white;
+  border-color: black;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: rgb(26, 200, 128);
+}
+.btn-2 {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(58, 58, 204);
+  color: black;
+  border: 0.1rem solid transparent;
+  border-color: black;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.1s ease;
+  cursor: pointer;
+  justify-content: center;
+
+}
+.btn-2:hover {
+  background-color: lightblue;
+}
+
+.home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.division-home{
+  align-items: center;
+}
+.product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.developer{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+.developer h1, p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
